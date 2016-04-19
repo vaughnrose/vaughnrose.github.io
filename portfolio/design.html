@@ -5,19 +5,45 @@
   <meta charset="UTF-8">
   <title> Vaughn Rose | Home</title>
   <style>
+  
 @font-face{
    font-family: jennifer_lynne;
    src: url(jennifer_lynne.ttf);
 }
+
 body{  margin:0;
   background-color: #997a7a;
 }
+
 h1{
     color: #333333;
     text-align: right;
     font-size: 100px; 
     font-family: 'jennifer_lynne'; 
      margin-right: 1em;
+}
+
+/*Table for images*/
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
 }
 
   </style>
@@ -28,5 +54,34 @@ h1{
     
   <h1>Vaughn Rose </h1>
     
+  
+  
+<div class="img">
+  <a target="_blank" href="fjords.jpg">
+    <img src="fjords.jpg" alt="Fjords" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="forest.jpg">
+    <img src="forest.jpg" alt="Forest" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="lights.jpg">
+    <img src="lights.jpg" alt="Northern Lights" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="mountains.jpg">
+    <img src="mountains.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
   
   </body>
