@@ -6,17 +6,18 @@
   
   <meta charset="UTF-8">
   
-  <title> Vaughn Rose | Home</title>
+  <title> Vaughn Rose | home</title>
   
   <style>
+  body{  margin:0;
+  background-color: #997a7a;
+}
+
+/*formats header*/  
   
 @font-face{
    font-family: jennifer_lynne;
    src: url(jennifer_lynne.ttf);
-}
-
-body{  margin:0;
-  background-color: #997a7a;
 }
 
 h1{
@@ -26,51 +27,50 @@ h1{
     font-family: 'jennifer_lynne'; 
      margin-right: 1em;
 }
-
-IMG.displayed {
-    display: block;
-    margin-left: auto;
-    margin-right: auto 
-}
-
-img{
-   border-style: solid;
-    border-width: 40px 40px 80px 40px;
-  color: #ffffff;
-}
-
-.fruitbowl {position:relative; width:100% max-width:600px; margin 0 auto; padding: 20px; text-align:center;}
-
+     /* formats text*/
+    p{
+      font-color: #333333;
+      max-width: 500px;
+    }
+    
+     /* aligns the paragraph with image*/
+    p,
+    img {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    /*centers everything */
+    
+    .fruitbowl {position:relative; width:100% max-width:600px; margin 0 auto; padding: 20px; text-align: center;}
 .apple {position:relative; display:inline-block; width:30% max-width:180px; margin 0 auto; padding: 0px 10px 0px 10px;}
-
+    
   </style>
-</head>
 
-<body>
- 
-    
-  <h1>Vaughn Rose </h1>
+  <body>
+      <a href="http://vaughnrose.github.io/">
+         <h1><img src="logopattern.png" alt="stencil of my tattoo" width="125" height="125" align="left"></a>Vaughn Rose</h1>
   
-  <div class="fruitbowl">
-    
-    <div class="apple">
-<a href="/me.html">
-    <img src="vaughnrose.github.io/cat.jpg" alt="click here for more information about me" style="width:300px;height:300px;">
-    </a>
-    </div>
-    
-    <div class="apple">
- <a href="/portfolio.html">     
-    <img src="vaughnrose.github.io/glitter.jpg" alt="click here for more information about me" style="width:300px;height:300px;">
-    </a>
-    </div>
-    
-<div class="apple">    
- <a href="/contact.html">     
-    <img src="vaughnrose.github.io/cat.jpg" alt="click here for more information about me" style="width:300px;height:300px;">
-    </a>
-    </div>
-    
+
+
+    <div class="fruitbowl">
+
+<div class="apple">
+  
+      <img src="me.jpg" alt="The most recent photo I've taken of myself without blonde hair" width="450" height="500"> &nbsp;&nbsp;&nbsp;&nbsp;
 </div>
+
+<div class="apple">
+      <p>Hi, thanks for stopping by!  
+
+        <br>
+        
+        My name is Vaughn Rose, and I'm about to start my senior year at Michigan State University. I grew up in Port Huron, Michigan with my mom, two brothers, a variety of dogs, fish, and cats. Right now I live with an adorable 5 year-old orange kitty cat named Margaret Morris. 
+        <br> 
+        <br>
+        Every thing I do is a new experience and I take everything I can from them. My first summer in college I packed my bags and moved to New York (not in the city) to work at a sports academy summer camp. This summer I'll be hopping over the pond for an internship with an app  in London, England, and I cannot wait. The more experiences, the more challenges. I'm ready to face. Check out my portfolio! </p>
   
-  </body>
+</div>
+    
+    </body>
+</html>
