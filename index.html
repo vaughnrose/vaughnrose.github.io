@@ -71,7 +71,7 @@ footer{
     font-family: 'jennifer_lynne'; 
 }
 
-.ch-item {
+ch-item {
 	width: 100%;
 	height: 100%;
 	border-radius: 50%;
@@ -79,7 +79,7 @@ footer{
 	cursor: default;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.2);
 }
-.ch-thumb {
+ch-thumb {
 	width: 100%;
 	height: 100%;
 	border-radius: 50%;
@@ -89,7 +89,7 @@ footer{
 	transform-origin: 95% 40%;
 	transition: all 0.3s ease-in-out;
 }
-.ch-thumb:after {
+ch-thumb:after {
 	content: '';
 	width: 8px;
 	height: 8px;
@@ -101,21 +101,21 @@ footer{
 	background: radial-gradient(ellipse at center, rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%);
 	box-shadow: 0 0 1px rgba(255,255,255,0.9);
 }
-.ch-img-1 { 
+ch-img-1 { 
 	background-image: url(../images/7.jpg);
 	z-index: 12;
 }
 
-.ch-img-2 { 
+ch-img-2 { 
 	background-image: url(../images/8.jpg);
 	z-index: 11;
 }
 
-.ch-img-3 { 
+ch-img-3 { 
 	background-image: url(../images/9.jpg);
 	z-index: 10;
 }
-.ch-info {
+ch-info {
 	position: absolute;
 	width: inherit;
 	height: inherit;
@@ -124,7 +124,7 @@ footer{
 	background: #c9512e url(../images/noise.png);
 	box-shadow: inset 0 0 0 5px rgba(0,0,0,0.05);
 }
-.ch-info h3 {
+ch-info h3 {
 	color: #fff;
 	text-transform: uppercase;
 	position: relative;
@@ -139,7 +139,7 @@ footer{
 		0 1px 2px rgba(0,0,0,0.3);
 }
 
-.ch-info p {
+ch-info p {
 	color: #fff;
 	padding: 10px 5px;
 	font-style: italic;
@@ -147,7 +147,7 @@ footer{
 	font-size: 12px;
 	border-top: 1px solid rgba(255,255,255,0.5);
 }
-.ch-info p a {
+ch-info p a {
 	display: block;
 	color: #333;
 	width: 80px;
@@ -171,14 +171,14 @@ footer{
 	transform: translateX(60px) rotate(90deg);
 }
 
-.ch-info p a:hover {
+ch-info p a:hover {
 	background: rgba(255,255,255,0.5);
 }
-.ch-item:hover .ch-thumb {
+ch-item:hover ch-thumb {
 	box-shadow: inset 0 0 0 15px rgba(255,255,255, 0.5), 0 1px 3px rgba(0,0,0,0.2);
 	transform: rotate(-110deg);
 }
-.ch-item:hover .ch-info p a{
+ch-item:hover ch-info p a{
 	opacity: 1;
 	transform: translateX(0px) rotate(0deg);
 }
